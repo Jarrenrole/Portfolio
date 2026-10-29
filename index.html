@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#080808">
+    <meta name="description" content="Jarren Role's personal portfolio website.">
+
+    <title>Jarren Role | Web Developer</title>
+
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#home" class="logo">
+            <span>ROLEⓍ</span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            id="menu-icon"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="navbar"
+        >
+            <i class="bx bx-menu"></i>
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOMEPAGE ONLY -->
+        <section class="home" id="home">
+
+            <div class="home-content">
+
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    WELCOME TO MY PORTFOLIO
+                </p>
+
+                <h1>
+                    Hi, I'm Jarren <span>Role</span>
+                </h1>
+
+                <h2 class="role-heading">
+                    I'm a <span class="multiple-text">IT Student</span>
+                </h2>
+
+                <p class="home-description">
+                    Aspiring web developer passionate about blending
+                    technology and creative design to build impactful
+                    digital experiences. Dedicated to continuous
+                    learning and technical refinement, delivering
+                    high-quality results one project at a time.
+                </p>
+
+            </div>
+
+            <!-- PROFILE IMAGE -->
+            <div class="home-img">
+
+                <div class="image-glow"></div>
+
+                <div class="image-ring">
+                    <img
+                        src="assets/Profile.jpg"
+                        alt="Portrait of Jarren Role"
+                    >
+                </div>
+            
+            </div>
+
+            <!-- DECORATIONS -->
+            <div class="hero-decoration decoration-one"></div>
+            <div class="hero-decoration decoration-two"></div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>
+            © <span id="year"></span> Jarren Role.
+            All rights reserved.
+        </p>
+
+        <a href="#home" aria-label="Back to top">
+            <i class="bx bx-up-arrow-alt"></i>
+        </a>
+    </footer>
+  </section>
+
+</main>
+
+</body>
+</html>
